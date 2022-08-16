@@ -1,6 +1,6 @@
 """BigQuery tap class."""
 
-from typing import List, Type
+from typing import Type
 
 from singer_sdk import SQLTap, SQLStream
 from singer_sdk import typing as th  # JSON schema typing helpers
